@@ -5,10 +5,15 @@ html {
   padding-left: 20px;
 }
 
-img{
+img {
   border-radius: 30px;
 }
 
 h1 {
   font-family: "Poetsen One", sans-serif;
+}
+button {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
 }

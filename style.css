@@ -11,6 +11,10 @@ img {
 
 h1 {
   font-family: "Poetsen One", sans-serif;
+  color: pink;
+}
+h3{
+  color: hotpink;
 }
 button {
   background-color: #f0f0f0;

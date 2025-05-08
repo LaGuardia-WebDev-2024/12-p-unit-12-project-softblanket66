@@ -13,7 +13,6 @@ Select ONE Additional
 [ no ] Feature 5 - Use .append() method
 -->
 
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,41 +25,38 @@ Select ONE Additional
     <button id="mem2-button">Memory #2</button>
     <button id="mem3-button">Memory #3</button>
     <h1>My Top 3 Memories of <span>This Year</span></h1>
+    <h2>click</h2>
     <ol>
       <li>
         <h3 id="mem1">Memory #1</h3>
         <p>Going to the beach with my friend to see sunset</p>
-         <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e0/ce/85/sunset-beach.jpg?w=900&h=500&s=1" 
-              style="display: none"
-              id="img1" 
-          />
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e0/ce/85/sunset-beach.jpg?w=900&h=500&s=1"
+          style="display: none"
+          id="img1"
+        />
       </li>
 
       <li>
         <h3 id="mem2">Memory #2</h3>
         <p>Went to central park to see cherry blossom</p>
-        <img src="https://www.centralpark.com/downloads/1213/download/central-park-cherry-blossoms.jpe?cb=783665e2e86dabe11fdbe675f24e26c4" 
-              style="display:none"
-              id="img2" 
-             />
-
-        
+        <img
+          src="https://www.centralpark.com/downloads/1213/download/central-park-cherry-blossoms.jpe?cb=783665e2e86dabe11fdbe675f24e26c4"
+          style="display: none"
+          id="img2"
+        />
       </li>
 
       <li>
         <h3 id="mem3">Memory #3</h3>
         <p>celebrate my friend birthday</p>
-        <img src="https://www.onceuponachef.com/images/2012/11/Vanilla-Birthday-Cake-18-1200x1480.jpg" 
-              style="display:none"
-              id="img3" 
-             />
-        
+        <img
+          src="https://www.onceuponachef.com/images/2012/11/Vanilla-Birthday-Cake-18-1200x1480.jpg"
+          style="display: none"
+          id="img3"
+        />
       </li>
     </ol>
-
-
-    
-    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
@@ -78,6 +74,10 @@ Select ONE Additional
         $("#mem3").css("color", "green");
         $("#img3").fadeIn(2000);
       });
+
+      $("h2").html("<u>Click the button on the top to see more</u>");
+      
+      $("h2").css("color", "rgb(137, 204, 245)")
     </script>
   </body>
 </html>
